@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  text-align: center;
+  background-color: rgb(154, 154, 160);
+  width: 80%;
+  padding: 50px 96px;
+}
+
+.playerOne,
+.playerTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 200px;
+}
+
+.score,
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+button {
+  width: 25%;
+  padding: 16px 0px;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
